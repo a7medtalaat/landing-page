@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoHeader {
+    width: 100px;
+    height: auto;
+    margin: 15px auto;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.websiteDefinition {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+}
+
+.photo {
+    width: 300px;
+    height: auto;
+    margin: 25px auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.informationText {
+    display: inline-block;
+    color: #F9FAF8;
+    width: 450px;
+}
+
+.signUp {
+    width: 200px;   /* Adjust width as needed */
+    height: 50px;   /* Adjust height as needed */
+    background-color: #4CAF50; /* Example background color */
+    color: white;             /* Example text color */
+    border: none;             /* Example border style */
+    border-radius: 5px;       /* Example border radius */
+    font-size: 16px;          /* Example font size */
+    cursor: pointer;          /* Cursor changes to pointer on hover */
+    margin-top: 20px;         /* Example margin for spacing */
+}
+.signUp:hover {
+    background-color: #45a049; /* Example hover effect */
+}
+.chooseText {
+    text-align: center;
+    margin-top: 50px;
+}
+.servicesContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.servicesImages {
+    width: 150px;
+    height: auto;
+}
+.servicesText {
+    font-size: 18px;
+    color: #1F2937;
+}
+.sectionThree {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.announcement {
+    background-color: #3882F6;
+    width: 700px;
+    height: 100px;
+    padding: 25px 75px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+
+}
+.announcementTexts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    color: #E5E7EB;
+}
